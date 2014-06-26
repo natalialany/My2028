@@ -1,0 +1,88 @@
+body {
+  margin-top: 100px;
+  text-align: center;
+}
+.game {
+  position: relative;
+  display: inline-block;
+}
+.board,
+.new-board {
+  display: inline-block;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.tile {
+  float: left;
+  width: 60px;
+  height: 60px;
+  background: lightgray;
+  font-size: 40px;
+  color: #776E65;
+  text-align: center;
+  line-height: 60px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.tile-play {
+  position: absolute;
+  background: #eee4da;
+}
+.new-row {
+  clear: left;
+}
+
+.area,
+.fx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.tile-2 {
+  background: #eee4da;
+}
+.tile-4 {
+  background: #eed3b2;
+}
+.tile-8 {
+  color: #f9f6f2;
+  background: #f2b179; 
+}
+.tile-16 {
+  color: #f9f6f2;
+  background: #f59563; 
+}
+.tile-32 {
+  color: #f9f6f2;
+  background: #f67c5f; 
+}
+.tile-64 {
+  color: #f9f6f2;
+  background: #f65e3b; 
+}
+.tile-128 {
+  color: #f9f6f2;
+  background: #edcf72;
+  font-size: 36px; 
+}
+.tile-256 {
+  color: #f9f6f2;
+  background: #edcc61;
+  font-size: 36px; 
+}
+.tile-512 {
+  color: #f9f6f2;
+  background: #edc850;
+  font-size: 36px; 
+}
+.tile-1024 {
+  color: #f9f6f2;
+  background: #edc53f;
+  font-size: 25px; 
+}
+.tile-2048 {
+  color: #f9f6f2;
+}
